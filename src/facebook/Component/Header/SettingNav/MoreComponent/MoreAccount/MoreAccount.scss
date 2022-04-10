@@ -1,0 +1,309 @@
+.settingNav-moreAccount {
+    padding: 8px;
+}
+
+.settingNav-moreAccount__avatar-link {
+    display: flex;
+    width: 344px;
+    align-items: center;
+    padding: 8px;
+    text-decoration: none;
+    position: relative;
+    border-radius: 6px;
+    &:hover {
+        background-color: #f2f2f2;
+    }
+}
+
+.settingNav-moreAccount__avatar-link::before {
+    position: absolute;
+    background-color: #CED0D4;
+    bottom: -8px;
+    left: 8px;
+    right: 8px;
+    padding: 0 -8px;
+    height: 1px;
+    pointer-events: none;
+    content: "";
+}
+.settingNav-moreAccount__avatar-link::after {
+    position: absolute;
+    background-color: #CED0D4;
+    bottom: -9px;
+    left: 8px;
+    right: 8px;
+    padding: 0 -8px;
+    height: 1px;
+    pointer-events: none;
+    content: "";
+}
+
+.settingNav-moreAccount__avatar-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.settingNav-moreAccount__name-wrapper {
+    margin-left: 12px;
+}
+
+.settingNav-moreAccount__name {
+    font-weight: 500;
+    font-size: 17px;
+    color: #050505;
+}
+
+.settingNav-moreAccount__description {
+    font-size: 15px;
+    color: #65676B;
+}
+
+.settingNav-moreAccount__feedback {
+    display: flex;
+    align-items: center;
+    margin: 16px 0 8px;
+    padding: 8px;
+    border-radius: 6px;
+    position: relative;
+    &:hover {
+        background-color: #f2f2f2;
+        cursor: pointer;
+    }
+}
+
+.settingNav-moreAccount__feedback::before {
+    position: absolute;
+    background-color: #CED0D4;
+    bottom: -9px;
+    left: 8px;
+    right: 8px;
+    padding: 0 -8px;
+    height: 1px;
+    pointer-events: none;
+    content: "";
+}
+
+.settingNav-moreAccount__feedback-icon-wrapper {
+    background-color: #e4e6eb;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.settingNav-moreAccount__feedback-icon {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/YBE_1_nu88W.png);
+    background-position: 0px -26px;
+    background-size: 26px 158px;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.settingNav-moreAccount__feedback-wrapper {
+    margin-left: 12px;
+}
+
+.settingNav-moreAccount__feedback-title {
+    font-size: 15px;
+    color: #050505;
+    font-weight: 500;
+}
+
+.settingNav-moreAccount__feedback-description {
+    font-size: 13px;
+    color: #65676b;
+}
+
+.settingNav-moreAccount__list-setting {
+    margin-top: 16px;
+}
+
+.settingNav-moreAccount__item-setting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px;
+    border-radius: 6px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #f2f2f2;
+    }
+}
+
+.settingNav-moreAccount__item-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.settingNav-moreAccount__item-icon {
+    background-color: #e4e6eb;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 50%;
+}
+
+.settingNav-moreAccount__private-icon {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yd/r/SXs33qal1Ps.png);
+    background-position: 0px -418px;
+    background-size: 74px 544px;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.settingNav-moreAccount__help-icon {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yH/r/qE9EiiRpuIv.png);
+    background-position: 0px -66px;
+    background-size: 22px 128px;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.settingNav-moreAccount__screen-icon {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yU/r/T0UipgSp36x.png);
+    background-position: 0px -198px;
+    background-size: 22px 330px;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.settingNav-moreAccount__logout-icon {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yW/r/YBE_1_nu88W.png);
+    background-position: 0px -48px;
+    background-size: 26px 158px;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.settingNav-moreAccount__item-name {
+    color: #050505;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 12px;
+}
+
+.settingNav-moreAccount__arrow-icon {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/sgtiGauwCtP.png);
+    background-position: -86px -14px;
+    background-size: 190px 146px;
+    width: 24px;
+    height: 24px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    align-items: center;
+}
+
+.settingNav-moreAccount__privacy {
+    padding: 0 8px;
+    word-wrap: break-word;
+}
+
+.settingNav-moreAccount__privacy-list {
+    list-style: none;
+}
+
+.settingNav-moreAccount__privacy-item {
+    display: inline;
+    color: #65676B;
+    font-size: 12px;
+}
+
+.settingNav-moreAccount__privacy-link {
+    text-decoration: none;
+    font-size: 13px;
+    color: #65676B;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.settingNav-moreAccount__privacy-dot {
+    cursor: default;
+}
+
+.settingNav-moreAccount__privacy-icon {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/y4/r/sgtiGauwCtP.png);
+    background-position: -176px -76px;
+    background-size: 190px 146px;
+    width: 12px;
+    height: 12px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    opacity: 0.6;
+    margin-left: 4px;
+}
+
+.settingNav-moreAccount__privacy-more {
+    position: relative;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.settingNav-moreAccount__privacy-more-list {
+    position: absolute;
+    list-style: none;
+    display: none;
+    border-radius: 6px;
+    background-color: #fff;
+    cursor: default;
+    top: 27px;
+    right: -66px;
+
+}
+
+.settingNav-moreAccount__privacy-more-list--active {
+    display: block;
+}
+
+.settingNav-moreAccount__privacy-more-list::before {
+    border-bottom: 20px solid #fff;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: -10px;
+    left: calc(344px/2 - 6px);
+    content: "";
+}
+
+.settingNav-moreAccount__privacy-more-item {
+    margin: 0 8px;
+    border-radius: 6px;
+    overflow: hidden;
+
+    &:first-child {
+        margin-top: 8px;
+    }
+    &:last-child {
+        margin-bottom: 8px;
+    }
+}
+
+.settingNav-moreAccount__privacy-more-link {
+    width: 328px;
+    display: block;
+    padding: 12px 8px;
+    color: #050505;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+    
+    &:hover {
+        background-color: #f2f2f2;
+
+    }
+}
+
+

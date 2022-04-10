@@ -1,0 +1,100 @@
+.settingNav {
+    display: flex;
+    align-items: center;
+    margin-right: 16px;
+}
+
+.settingNav__avatar-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 18px;
+    
+    &:hover {
+        background-color: #F2F2F2;
+    }
+}
+
+.settingNav__avatar-link--active {
+    background-color: #e7f3ff;
+     
+    &:hover {
+        background-color: #e7f3ff;
+    }
+
+    .settingNav__avatar-name--active {
+        color: #1876f2;
+    }
+}
+
+.settingNav__avatar-img {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+}
+
+.settingNav__avatar-name {
+    color: #000;
+    font-weight: 500;
+    font-size: 15px;
+    margin: -3px 6px 0;
+}
+
+
+.settingNav-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    position: relative;
+}
+
+.settingNav-item {
+    margin-left: 8px;
+    background-color: #e4e6eb;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        cursor: pointer;
+        filter: brightness(95%)
+    }
+}
+
+.settingNav-item--active {
+    background-color: #e7f3ff;
+    
+}
+
+.settingNav-item__icon {
+    width: 20px;
+    height: 20px;
+    mix-blend-mode: multiply;
+}
+
+.settingNav-more {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 10px 20px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+}
+
+.settingNav-more--menuType {
+}
+
+.settingNav-more--messengerType {
+
+}
+
+.settingNav-more--notificationType {
+
+}
+
+.settingNav-more--accountType {
+    top: 46px;
+    right: 0;
+}

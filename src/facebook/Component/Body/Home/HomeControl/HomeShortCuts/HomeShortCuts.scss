@@ -1,0 +1,72 @@
+.homepage-control__shortcuts {
+    padding-bottom: 20px;
+    &:hover {
+        .homepage-control__shortcuts-title-edit {
+            display: block;
+        }
+    }
+}
+
+.homepage-control__shortcuts-title-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 8px;
+    padding-top: 8px;
+    height: 36px;
+}
+
+.homepage-control__shortcuts-title-name {
+    color: #65676B;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.homepage-control__shortcuts-title-edit {
+    color: #216fdb;
+    font-size: 15px;
+    padding: 8px;
+    border-radius: 6px;
+    display: none;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #e4e6e9;
+    }
+}
+
+.homepage-control__shortcuts-list {
+    margin-top: 8px;
+}
+
+.homepage-control__shortcuts-item {
+
+}
+
+.homepage-control__shortcuts-link {
+    display: block;
+    height: 52px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    text-decoration: none;
+
+    &:hover {
+        background-color: #e4e6e9;
+    }
+}
+
+.homepage-control__shortcuts-img {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    margin-left: 8px;
+}
+
+.homepage-control__shortcuts-detail {
+    margin-left: 12px;
+    font-size: 15px;
+    color: #050505;
+    font-weight: 500;
+}
+

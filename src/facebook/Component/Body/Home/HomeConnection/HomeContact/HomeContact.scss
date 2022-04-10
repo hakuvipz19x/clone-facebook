@@ -1,0 +1,221 @@
+.homepage-connection__contact {
+    padding-top: 20px;
+    position: relative;
+
+    &::before {
+        left: 8px;
+        right: 8px;
+        bottom: -9px;
+        height: 1px;
+        background-color: #d5d7db;
+        position: absolute;
+        content: '';
+    }
+
+    &::after {
+        left: 8px;
+        right: 8px;
+        bottom: -8px;
+        height: 1px;
+        background-color: #d5d7db;
+        position: absolute;
+        content: '';
+    }
+}
+
+.homepage-connection__contact-header {
+    margin-left: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homepage-connection__contact-title {
+    color: #65676b;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.homepage-connection__contact-function-list {
+    display: flex;
+    list-style: none;
+}
+
+.homepage-connection__contact-function-item {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 8px;
+
+    &:hover {
+        background-color: #e4e6e9;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+
+.homepage-connection__contact-function-svg {
+    fill: #65676b;
+}
+
+.homepage-connection__contact-function-svg--large {
+    width: 20px;
+    height: 20px;
+}
+
+.homepage-connection__contact-list {
+    list-style: none;
+}
+
+.homepage-connection__contact-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 8px;
+    &:hover {
+        cursor: pointer;
+        background-color: #e4e6e9;
+    }
+}
+
+.homepage-connection__contact-avatar-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.homepage-connection__contact-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.homepage-connection__contact-status {
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+}
+
+.homepage-connection__contact-status--online {
+    width: 12px;
+    height: 12px;
+    background-color: #31a24c;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.homepage-connection__contact-status--offline {
+    color: #31a24c;
+    font-size: 10px;
+    font-weight: 700;
+    background-color: #deefe1;
+    padding: 0 2px;
+    border-top: 1px solid #fff;
+    white-space: nowrap;
+    border-radius: 14px;
+}
+
+.homepage-connection__contact-name {
+    font-size: 15px;
+    color: #050505;
+    font-weight: 500;   
+    margin-left: 12px;
+}
+
+
+.homepage-connection__group {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.homepage-connection__group-header {
+    margin-left: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.homepage-connection__group-title {
+    color: #65676b;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.homepage-connection__group-list {
+    list-style: none;
+    padding-top: 8px;
+}
+
+.homepage-connection__group-item {
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    border-radius: 8px;
+
+    &:hover {
+        cursor: pointer;
+        background-color: #e4e6e9;
+
+        .homepage-connection__group-create-wrapper {
+            background-color: #d8dadf;
+        }
+    }
+}
+
+.homepage-connection__group-avatar-wrapper {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.homepage-connection__group-status {
+    position: absolute;
+    bottom: -1px;
+    right: -1px;
+}
+
+.homepage-connection__group-status--online {
+    width: 12px;
+    height: 12px;
+    background-color: #31a24c;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+.homepage-connection__group-avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+
+.homepage-connection__group-name {
+    font-size: 15px;
+    color: #050505;
+    font-weight: 500;   
+    margin-left: 12px;
+}
+
+.homepage-connection__group-create-wrapper {
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e4e6eb;
+}
+
+
+
+.homepage-connection__group-create-img {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yZ/r/ned5ejkCZpX.png);
+    background-position: -22px -238px;
+    background-size: 74px 376px;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+

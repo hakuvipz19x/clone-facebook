@@ -1,0 +1,107 @@
+.homepage-connection__message {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin-right: 16px;
+}
+
+.homepage-connection__message-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.homepage-connection__message-hide-list {
+    list-style: none;
+    padding-bottom: 16px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    right: 30px;
+    
+    &:hover {
+        .homepage-connection__message-more-wrapper {
+            visibility: visible;
+        }
+    }
+}
+
+.homepage-connection__message-hide-item {
+    padding: 2px 0px;
+    
+}
+
+.homepage-connection__message-avatar-wrapper {
+    
+}
+
+
+.homepage-connection__message-avatar-img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    box-shadow: 0 6px 20px 0 rgb(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.homepage-connection__message-new-wrapper {
+    width: 48px;
+    height: 48px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: 0 6px 20px 0 rgb(0, 0, 0, 0.25);
+
+    &:hover {
+        background-color: #f2f2f2;
+        cursor: pointer;
+    }
+}
+
+
+.homepage-connection__message-new-img {
+    background-image: url(https://static.xx.fbcdn.net/rsrc.php/v3/yc/r/CBC1iaVlWWe.png);
+    background-position: 0px -526px;
+    background-size: 34px 992px;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+
+.homepage-connection__message-more-wrapper {
+    width: 36px;
+    height: 36px;
+    visibility: hidden;
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 800;
+    box-shadow: 0 6px 20px 0 rgb(0, 0, 0, 0.25);
+    margin-bottom: 8px;
+
+    &:hover {
+        background-color: #f2f2f2;
+        cursor: pointer;
+    }
+}
+
+.homepage-connection__message-more {
+}
+
+.homepage-connection__message-show-list {
+    margin-right: 80px; 
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.homepage-connection__message-show-item {
+    margin-left: 8px;
+}

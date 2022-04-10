@@ -1,0 +1,34 @@
+.homepage-control {
+    width: 350px;
+}
+
+.homepage-control-container {
+    height: 94vh;
+    margin-left: 8px;
+    position: fixed;
+    overflow-y: scroll;
+
+    &::-webkit-scrollbar {
+        width: 8px;
+        border-radius: 10px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: transparent;
+        padding: 4px;
+        &:hover {
+            background: #e5e8eb;
+        }
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background: transparent;
+        border-radius: 6px;
+    }
+
+    &:hover {
+        &::-webkit-scrollbar-thumb {
+            background: #bcc0c4;
+        }
+    }
+}
